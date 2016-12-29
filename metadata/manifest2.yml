@@ -1,0 +1,30 @@
+---
+Name: empty
+Cartridge-Short-Name: EMPTY
+Display-Name: Empty Cartridge 0.1
+Description: An empty cartridge for development use only.
+Version: '0.1'
+Source-Url: git@github.com:staf621/rhc-cartridge.git
+Versions:
+- '0.1'
+License: ASL 2.0
+Vendor: staf621
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: staf621
+Categories:
+- web_framework
+- mock
+Provides:
+- empty-0.1
+Cart-Data:
+- Key: OPENSHIFT_MOCK_EXAMPLE
+  Type: environment
+  Description: An example environment variable using ERB processing
+Publishes:
+Subscribes:
+  set-env:
+    Type: ENV:*
+    Required: false
+Install-Build-Required: false
+Metrics:
+- uptime
