@@ -4,7 +4,6 @@ Cartridge-Short-Name: EMPTY
 Display-Name: Empty Cartridge 0.1
 Description: An empty cartridge for development use only.
 Version: '0.1'
-Source-Url: git@github.com:staf621/rhc-cartridge.git
 Versions:
 - '0.1'
 License: ASL 2.0
